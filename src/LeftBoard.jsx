@@ -8,11 +8,11 @@ import { BiSolidUserPin, BiSolidUserRectangle } from "react-icons/bi";
 import { PiUniteSquareFill, PiSubtractSquareFill } from "react-icons/pi";
 import { FaDashcube, FaAngleDown } from "react-icons/fa";
 import { AiOutlineRight } from "react-icons/ai";
-const LeftBoard = () => {
+const LeftBoard = ({isMenu}) => {
   const list_obj = ["Product", "Customer", "Income"];
   return (
     <>
-      <div className="left-board">
+      <div className={`left-board ${ isMenu ? '':'menu-bar'}`}>
         <div className="top">
           <div className="dash">
             <RiSettingsLine fontSize={"25px"} />
