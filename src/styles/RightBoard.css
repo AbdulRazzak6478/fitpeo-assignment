@@ -10,3 +10,16 @@
     justify-content: space-between;
     align-items: center;
 }
+@media (max-width:900px) {
+    .box{
+        padding: 0.7rem;
+    }
+}
+@media (max-width:700px) {
+    .right-board{
+        width: 100%;
+    }
+    .box{
+        padding: 2rem 1rem;
+    }
+}

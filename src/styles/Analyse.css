@@ -38,3 +38,29 @@
 .chart{
     width: 550px;
 }
+@media (max-width:900px) {
+    .customer{
+        padding: 0.5rem;
+        margin-left: 5px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .customer img{
+        margin-top: 0.5rem;
+        object-fit: contain;
+        width: 150px;
+        align-self: center;
+    }
+    .overview{
+        padding: 0.5rem;
+    }
+}
+@media (max-width:700px) {
+    .outer{
+        display: block;
+    }
+    .chart{
+        width: 100%;
+    }
+}

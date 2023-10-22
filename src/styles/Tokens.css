@@ -45,3 +45,37 @@
     color:black;
     font-weight: bold;
 }
+@media (max-width:900px) {
+    .token{
+        margin: 0 5px;
+        padding: 0.7rem ;
+    }
+    .token-img{
+        margin-right: 5px;
+    }
+}
+@media (max-width:700px) {
+    .token-box{
+        display: block;
+        margin: 1rem ;
+    }
+    .token-img{
+        width: 120px;
+        height: 120px;
+    }
+    .token .content{
+        font-size: 20px;
+    }
+    .content .deal{
+        font-size:15px;
+        color:darkgray;
+        font-weight:800 ;
+    }
+    .content .amount{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .content .percent{
+        font-size: 20px;
+    }
+}

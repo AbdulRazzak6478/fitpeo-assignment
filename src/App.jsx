@@ -1,6 +1,7 @@
-import './App.css'
-import LeftBoard from './LeftBoard'
-import RightBoard from './RightBoard'
+import './App.css';
+import './styles/mediaQuery.css';
+import LeftBoard from './LeftBoard';
+import RightBoard from './RightBoard';
 
 function App() {
 

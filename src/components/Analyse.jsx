@@ -17,8 +17,10 @@ const Analyse = () => {
                 <Barchart />
             </div>
             <div className="customer">
-                <h3>Customers</h3>
-                <p>Customer that buy products</p>
+                <div className="">
+                    <h3>Customers</h3>
+                    <p>Customer that buy products</p>
+                </div>
                 <img src={img65} alt="img" />
             </div>
         </div>

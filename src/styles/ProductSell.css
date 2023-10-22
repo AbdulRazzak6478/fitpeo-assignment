@@ -59,3 +59,13 @@
     font-weight: 100;
     color:darkgrey
 }
+
+@media (max-width:500px) {
+    .product-nav .nav{
+        font-size: 13px;
+        color:darkgray;
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
