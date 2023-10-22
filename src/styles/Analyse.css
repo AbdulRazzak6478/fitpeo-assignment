@@ -1,0 +1,40 @@
+
+.outer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview{
+    background-color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+}
+.overview .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .down{
+    padding: 0 5px;
+    outline: none;
+    border: none;
+    color: rgb(169, 169, 169);
+    cursor: pointer;
+}
+.overview p,.customer p{
+    color: rgba(174, 140, 140, 0.9);
+    font-size: 15px;
+}
+.customer{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+.customer img{
+    margin-top: 1rem;
+    object-fit: contain;
+    width: 300px;
+}
+.chart{
+    width: 550px;
+}

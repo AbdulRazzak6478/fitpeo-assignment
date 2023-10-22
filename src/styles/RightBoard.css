@@ -1,0 +1,12 @@
+.right-board{
+    width: 85%;
+}
+.box{
+    padding: 0.7rem 2rem;
+    background-color: rgb(212, 248, 250);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

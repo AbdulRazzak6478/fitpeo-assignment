@@ -1,0 +1,86 @@
+.left-board{
+    width: 15%;
+    color:#bdbddd;
+    background-color:  #2a2f4c;
+    background-color:  #08123d;
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+svg{
+    color:white,
+}
+.dash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color:white;
+}
+.dash svg{
+    size: 30px;
+    margin-right: 0.5rem;
+}
+.dash p{
+    font-size: 22px;
+}
+.item{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 5px;
+    cursor: pointer;
+    opacity: 0.7;
+    font-size: 12px;
+    font-weight: 400;
+}
+.item:hover,.active{
+    opacity: 1;
+    background-color: rgba(80, 64, 138,0.6);
+    border-radius: 5px;
+    color:white;
+}
+/* .active{
+    opacity: 1;
+} */
+.item .one{
+    display: flex;
+}
+.item .one svg{
+    margin-right:0.5rem ;
+}
+.profile{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two svg{
+    font-size: 30px;
+}
+.user p{
+    font-size: 13px;
+    margin: 0 .5rem;
+    font-weight: 600;
+    color:white;
+}
+.user .role{
+    font-size: 10px;
+    font-weight: 100;
+    opacity: 0.8;
+}
+.account{
+    background-color: rgba(80, 64, 138,0.6);
+    margin: 4px 0.5rem;
+    padding: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,47 @@
+
+.token-box{
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.token{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.token-img{
+    object-fit: contain;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.token .content{
+    font-size: 13px;
+}
+.content .deal{
+    font-size:11px;
+    color:darkgray;
+    font-weight:800 ;
+}
+.content .amount{
+    font-size: 20px;
+    font-weight: bold;
+}
+.content .percent{
+    font-size: 10px;
+}
+.content .percent span{
+    color:rgb(45, 220, 45);
+    font-weight: bold;
+}
+.content .percent span svg{
+    font-size: 12px;
+}
+.content .percent .diff{
+    color:black;
+    font-weight: bold;
+}
