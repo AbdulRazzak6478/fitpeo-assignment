@@ -29,6 +29,7 @@
     }
     .menu{
         position: absolute;
+        position:fixed;
         top:10px;
         left:20px;
         z-index: 5;
@@ -47,6 +48,7 @@
     .menu-bar{
         display: block;
         position: absolute;
+        position :fixed;
         z-index: 3;
         width: 100%;
     }
